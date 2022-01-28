@@ -75,7 +75,8 @@ main {
 
 .container-2 {
     margin: auto;
-    
+    /*background-image: url(../img/img-1.jpg);*/
+
 }  
 
 .float {
@@ -83,6 +84,7 @@ main {
     width: 25%;
     margin-top: 20px;
     margin-bottom: 20px;
+    background-repeat: no-repeat
 }
 
 .center {
@@ -91,6 +93,11 @@ main {
     width: 46%;
 }
 
+
+.img-2 {
+    height: 150px;
+    
+}
 
 /* inizio debug */
 
