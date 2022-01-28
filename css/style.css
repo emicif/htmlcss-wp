@@ -1,0 +1,125 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* inizio utility classes */
+
+.clearfix::after {
+    content: " ";
+    clear: both;
+    display: table;
+  }
+
+/* / utility classes */
+
+
+
+/* inizio layout */
+
+.container-tot{
+    width: 70%;
+    margin: 15px auto;
+}
+
+
+/* header */
+
+header {
+    margin: 20px auto;
+    margin-top: 10px;
+}
+
+
+/* fine header */
+
+
+/* inizio main */
+
+main {
+    padding-bottom: 20px;
+}
+
+.container {
+    margin-bottom: 20px;  
+}
+
+.container-blu{   
+    /*margin-top: 20px;*/
+    margin: auto;   
+}
+
+
+.container-2 {
+    margin: auto;
+}  
+
+.float {
+    float: left;
+    width: 25%;
+}
+
+.center {
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 46%;
+}
+
+
+/* inizio debug */
+
+
+.debug header {
+    height: 70px;
+    background-color: #e579e6;
+}
+
+
+.debug .container-tot {
+    border: 2px dashed red;
+    /*height: 1000px;*/
+}
+
+.debug .container {
+    height: 400px;
+    background-color: #e1d67a;
+}
+
+.debug .container-blu {
+    height: 100px;
+    background-color: #abcfe7;
+}
+
+.debug .container-2 {
+    background-color: #0186ff;
+    height: 440px;
+}
+
+.debug .float {
+    height: 400px;
+    background-color: #abcfe7;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+.debug .footer {
+    height: 50px;
+    background-color: #8801fe;
+}
+
+
+/* / debug */
+
+
+
+/*footer*/
+
+.footer {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+
+
