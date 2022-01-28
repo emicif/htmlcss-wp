@@ -63,10 +63,9 @@ main {
     height: 400px;
 }
 
-.container-blu{   
+.container-blu {   
     /*margin-top: 20px;*/
-    margin: auto;   
-    
+    margin: auto; 
 }
 
 .paragrafo {
@@ -84,7 +83,7 @@ main {
     width: 25%;
     margin-top: 20px;
     margin-bottom: 20px;
-    background-repeat: no-repeat
+    background-repeat: no-repeat;
 }
 
 .center {
@@ -96,7 +95,11 @@ main {
 
 .img-2 {
     height: 150px;
-    
+}
+
+.img-3 {
+    width: 243px;
+    border-radius: 15px;
 }
 
 /* inizio debug */
@@ -134,10 +137,10 @@ main {
     
   }
 
-.debug .footer {
+/*.debug .footer {
     height: 50px;
     background-color: #8801fe;
-}
+}*/
 
 
 /* / debug */
@@ -147,8 +150,9 @@ main {
 /*footer*/
 
 .footer {
-    margin-top: 10px;
-    margin-bottom: 20px;
+    margin-top: 10px; 
+    text-align: center;
+    font-size: 20px;
 }
 
 
